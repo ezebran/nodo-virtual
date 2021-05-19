@@ -509,59 +509,17 @@ footer .contact .data .f_redes p {
   z-index: 99;
 }
 
-@media screen and (max-width: 415px) {
-  body .title h1 {
-    font-size: 2em;
-  }
-  body .title .hr1 {
-    width: 3em;
-  }
-  body .home {
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-    height: inherit;
-  }
-  body .home .red_sect {
-    height: inherit;
-    width: 100%;
-    padding: 2em 5%;
-  }
-  body .home .red_sect h1 {
-    font-size: 3em;
-  }
-  body .home .black_sect {
-    height: inherit;
-    width: 100%;
-    padding: 2em 0;
-  }
-  body .skills .sk_info {
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-  }
-  body .skills .sk_info .sk_text {
-    width: inherit;
-    margin-top: 2em;
-  }
-  body .skills .sk_info .sk_slids {
-    width: inherit;
-    padding: 3em 0;
-  }
-  body footer {
-    height: 21em;
-  }
-  body footer .contact .data {
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: center;
-    align-items: center;
-  }
-  body footer .contact .data .loc {
-    padding: 0.5em 0;
-  }
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logos li {
+  margin: 0 1em;
+}
+.logos li img {
+  width: 150px;
 }
 
 /*# sourceMappingURL=styles.css.map */

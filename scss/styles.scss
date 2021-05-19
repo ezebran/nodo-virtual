@@ -185,6 +185,8 @@ body{
 	}
 }
 
+
+
 .mesa-de-entrada{
 	background: url(../img/bgs/mese_de_entrada.png);
 }
@@ -554,69 +556,29 @@ footer{
 }
 // FIN DE click to TOP
 
-
-
-
 .fixed{
 	position:fixed;
 	top:0;
     z-index: 99;
 }
 
+.logos{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	li{
+		margin:0 1em;
+		img{
+			width: 150px;
+		}
+	}
+}
+
 // CODIGO QUE EJECUTA EL RESPONSIVE
 
 @media screen and (max-width: 415px){ //PARA CELULAR
-	body{
-		.title{
-			h1{
-			    font-size: 2em;
-			}
-			.hr1{
-				width: 3em;
-			}
-		}
-		.home{
-			@include col-ct();
-		    height: inherit;
-		    .red_sect{
-		    	height: inherit;
-		    	width: 100%;
-		        padding: 2em 5%;
-		        h1{
-		        	font-size: 3em;
-		        }
-		    }
-		    .black_sect{
-		    	height: inherit;
-		    	width: 100%;
-		    	padding: 2em 0;
-		    }
-		}
-		.skills{
-			.sk_info{
-				@include col-ct();
-				.sk_text{
-					width: inherit;
-					margin-top: 2em;
-				}
-				.sk_slids{
-					width: inherit;
-					padding: 3em 0;
-				}
-			}
-		}
-		footer{
-		    height: 21em;
-			.contact{
-				.data{
-					@include col-ct();
-					.loc{
-					    padding: 0.5em 0;
-					}
-				}
-			}
-		}
-	}
+
 }
 
 @media screen and (max-width: 926px) and (min-width: 415px){ //PARA TABLET
