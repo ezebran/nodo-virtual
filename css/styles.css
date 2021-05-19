@@ -107,19 +107,22 @@ body {
 }
 .home .black_sect .fecha, .mesa-de-entrada .black_sect .fecha, .sala-capacitaciones .black_sect .fecha {
   text-align: center;
+  padding: 0 0.5em;
 }
 .home .black_sect .fecha h5, .mesa-de-entrada .black_sect .fecha h5, .sala-capacitaciones .black_sect .fecha h5 {
   color: #d1d3d0;
   font-weight: 300;
   margin: 2.8em 0 0.5em;
+  font-size: 2em;
 }
 .home .black_sect .fecha h3, .mesa-de-entrada .black_sect .fecha h3, .sala-capacitaciones .black_sect .fecha h3 {
   color: #d1d3d0;
   font-weight: 700;
+  font-size: 2em;
 }
 .home .black_sect .fecha h4, .mesa-de-entrada .black_sect .fecha h4, .sala-capacitaciones .black_sect .fecha h4 {
   color: #d1d3d0;
-  font-size: 4em;
+  font-size: 2em;
   font-weight: 100;
 }
 
