@@ -514,12 +514,19 @@ footer .contact .data .f_redes p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin-top: 2em;
 }
 .logos li {
   margin: 0 1em;
 }
 .logos li img {
   width: 150px;
+}
+.logos li .ide-logo {
+  width: 200px;
+}
+.logos li .secretaria-logo {
+  width: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

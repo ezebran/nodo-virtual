@@ -567,10 +567,17 @@ footer{
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 2em;
 	li{
 		margin:0 1em;
 		img{
 			width: 150px;
+		}
+		.ide-logo{
+			width: 200px;
+		}
+		.secretaria-logo{
+			width: 100px; 
 		}
 	}
 }
